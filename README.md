@@ -2,7 +2,7 @@
 
 ## Configure environment variables
 
-Make a copy and configure the .env files in the root directories of each folder.
+Make a copy and configure the .env file in the back-end folder.
 
 ## Run docker-compose
 
