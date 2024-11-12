@@ -1,0 +1,14 @@
+.span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.imgbox {
+    max-width: 7%;
+}
+
+.img {
+    max-width: 100%;
+}
