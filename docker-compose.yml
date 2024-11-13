@@ -5,15 +5,11 @@ services:
     container_name: back-end
     ports:
       - "3001:3001"
-    volumes:
-      - ./back-end:/usr/src/app
     restart: always
   front-end:
     build: ./front-end
     container_name: front-end
     ports:
       - "3000:3000"
-    volumes:
-      - ./front-end:/app
     stdin_open: true
     tty: true
