@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const baseUrlNager = process.env.BASE_URL_NAGER;
-const baseUrlCountriesNow = process.env.BASE_URL_COUNTRIES_NOW;
+const baseUrlNager = process.env.BASE_URL_NAGER || 'https://date.nager.at/api/v3';
+const baseUrlCountriesNow = process.env.BASE_URL_COUNTRIES_NOW || 'https://countriesnow.space/api/v0.1';
 
 const getCountries = async (_req, res) => {
     try {
